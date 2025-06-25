@@ -1,0 +1,29 @@
+<section id="skills" class="skills">
+  <h2 style="margin-top:50px;  font-size: 2.5rem;">Skills</h2>
+  <div class="skill-list">
+    <div class="skill" *ngFor="let skill of skills" animateOnScroll>
+      <label>{{ skill.name }}</label>
+      <div class="bar">
+        <div class="progress" [style.width.%]="skill.level"></div>
+      </div>
+    </div>
+    <div class="skill-badge">
+      <span>React</span>
+      <span class="badge">Certified</span>
+    </div>
+  </div>
+
+  <div class="familiarity">
+    <h3>Familiar With</h3>
+    <ul class="familiar-list">
+      <li>Java</li>
+      <li>Spring Boot</li>
+      <li>DBeaver</li>
+      <li>REST APIs Creation</li>
+    </ul>
+  </div>
+</section>
+
+<p class="skill-summary">
+  <strong>Currently exploring opportunities</strong> that challenge me, align with my passion for UI engineering, and offer clear paths for learning, growth, and career advancement.
+</p>
