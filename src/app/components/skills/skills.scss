@@ -5,10 +5,10 @@
   text-align: center;
   animation: fadeInUp 0.8s;
   .skills {
-    padding: 4rem 2rem;
+    padding: 30px 30px 0 30px;
     background: linear-gradient(135deg, #e0f7fa, #fce4ec);
     color: #1e1e2f;
-    height: calc(100vh - 60px);
+    height: calc(100vh + 60px);
     .skill-list {
       max-width: 600px;
       margin: 0 auto;

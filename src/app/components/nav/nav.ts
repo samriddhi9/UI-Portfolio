@@ -11,5 +11,9 @@ import {RouterLink} from '@angular/router';
   styleUrl: '/nav.scss'
 })
 export class Nav {
+  menuOpen = false;
 
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
 }

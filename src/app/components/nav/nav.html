@@ -1,9 +1,12 @@
 <nav class="navbar">
   <div class="logo">SB</div>
-  <ul class="nav-links">
+  <div class="hamburger" (click)="toggleMenu()">
+    &#9776; <!-- Unicode hamburger icon -->
+  </div>
+  <ul class="nav-links" [class.active]="menuOpen">
     <li><a routerLink="/">Home</a></li>
     <li><a routerLink="/projects">Projects</a></li>
     <li><a routerLink="/skills">Skills</a></li>
-    <li><a routerLink="/contact">Contact</a></li>
+    <li><a href="https://in.linkedin.com/in/samriddhi-bhosle" target="_blank">Contact</a></li>
   </ul>
 </nav>
